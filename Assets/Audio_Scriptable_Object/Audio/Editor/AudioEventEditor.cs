@@ -4,7 +4,7 @@ using UnityEditor;
 [CustomEditor(typeof(AudioEvent), true)]
 public class AudioEventEditor : Editor
 {
-/* an audio source to preview the on the fly */
+/* an audio source to preview on the fly */
 	[SerializeField] private AudioSource _previewer;
 
 	public void OnEnable()
