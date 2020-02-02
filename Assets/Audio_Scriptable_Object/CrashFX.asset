@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc9f2b045bd429caf3db301fda070da, type: 3}
+  m_Name: CrashFX
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 8edf104c7db8b4e0dbeaaa2978ff31d3, type: 3}
+  volume:
+    minValue: 0
+    maxValue: 0.0078125
+  pitch:
+    minValue: 0.125
+    maxValue: 0.3125
