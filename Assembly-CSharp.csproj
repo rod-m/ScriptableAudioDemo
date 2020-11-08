@@ -61,8 +61,8 @@
      <Compile Include="Assets\AudioScriptableObject\AudioEventBase.cs" />
      <Compile Include="Assets\AudioScriptableObject\AudioEventEnhanced.cs" />
      <Compile Include="Assets\AudioScriptableObject\AudioEventSimple.cs" />
-     <Compile Include="Assets\CustomEditorExtentions\MinMaxRangeAttribute.cs" />
-     <Compile Include="Assets\CustomEditorExtentions\RangedFloat.cs" />
+     <Compile Include="Assets\CustomEditorExtensions\MinMaxRangeAttribute.cs" />
+     <Compile Include="Assets\CustomEditorExtensions\RangedFloat.cs" />
      <Compile Include="Assets\Scripts\CrashingBox.cs" />
      <Compile Include="Assets\Scripts\NPCController.cs" />
      <Compile Include="Assets\Scripts\PlayerProps.cs" />
