@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using AudioScriptableObject;
 using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(Rigidbody))]
@@ -7,7 +8,7 @@ public class CrashingBox : MonoBehaviour
 {
     private Rigidbody rb;
     private AudioSource audioSrc;
-    public SimpleAudioEvent crashSFX;
+    [SerializeField] public EnhancedAudioEvent crashSFX;
    
    
     void Start()

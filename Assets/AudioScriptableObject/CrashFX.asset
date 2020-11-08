@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: CrashFX
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 8300000, guid: 8edf104c7db8b4e0dbeaaa2978ff31d3, type: 3}
+  - {fileID: 8300000, guid: b6252d19e2e2e4beeae6cecabdafb83a, type: 3}
   volume:
-    minValue: 0
-    maxValue: 0.0078125
+    minValue: 0.5703125
+    maxValue: 0.8359375
   pitch:
-    minValue: 0.125
-    maxValue: 0.3125
+    minValue: 0.625
+    maxValue: 1.4375
+  dopler:
+    minValue: 1.734375
+    maxValue: 3.0499997
