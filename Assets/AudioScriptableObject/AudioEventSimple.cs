@@ -1,4 +1,4 @@
-using CustomEditorExtentions;
+using CustomEditorExtensions;
 using UnityEngine;
 using UnityEngine.WSA;
 

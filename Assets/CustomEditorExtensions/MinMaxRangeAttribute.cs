@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CustomEditorExtentions
+namespace CustomEditorExtensions
 {
     public class MinMaxRangeAttribute : Attribute
     {

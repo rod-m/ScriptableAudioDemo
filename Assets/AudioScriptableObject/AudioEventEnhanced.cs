@@ -1,4 +1,4 @@
-﻿using CustomEditorExtentions;
+﻿using CustomEditorExtensions;
 using UnityEngine;
 
 //To add multiple Simple Audio Event assets use Assets/Audio/Simple

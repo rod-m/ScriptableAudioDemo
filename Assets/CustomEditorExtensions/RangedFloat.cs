@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CustomEditorExtentions
+namespace CustomEditorExtensions
 {
     [Serializable]
     public struct RangedFloat
