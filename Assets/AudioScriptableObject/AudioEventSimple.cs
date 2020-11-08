@@ -1,3 +1,4 @@
+using CustomEditorExtentions;
 using UnityEngine;
 using UnityEngine.WSA;
 
@@ -18,6 +19,14 @@ namespace AudioScriptableObject
             _source.volume = Random.Range(volume.minValue, volume.maxValue);
             _source.pitch = Random.Range(pitch.minValue, pitch.maxValue);
         
+            _source.Play();
+        }
+        public void Play(AudioSource _source, float _velocity)
+        {
+            if (clips.Length == 0) return;
+            _source.volume = _velocity + Random.Range(volume.minValue, volume.maxValue);
+            _source.pitch = _velocity + Random.Range(pitch.minValue, pitch.maxValue);
+            Debug.Log($"Input velocity {_velocity} Volume {_source.volume} Pitch {_source.pitch}");
             _source.Play();
         }
     }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using CustomEditorExtentions;
+using UnityEngine;
 
 //To add multiple Simple Audio Event assets use Assets/Audio/Simple
 namespace AudioScriptableObject
@@ -23,10 +24,9 @@ namespace AudioScriptableObject
 
         public void Play(AudioSource _source, float _velocity)
         {
-
-            Play(_source);
+            if (clips.Length == 0) return;
+            _source.clip = clips[Random.Range(0, clips.Length)];
             _source.dopplerLevel = Random.Range(dopler.minValue, dopler.maxValue);;
-        
             _source.volume = _velocity + Random.Range(volume.minValue, volume.maxValue);
             _source.pitch = _velocity + Random.Range(pitch.minValue, pitch.maxValue);
             Debug.Log($"Input velocity {_velocity} Volume {_source.volume} Pitch {_source.pitch}");

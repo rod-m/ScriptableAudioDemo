@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using AudioScriptableObject;
+using UnityEditor;
 using UnityEngine;
 
 /*
@@ -6,7 +7,7 @@ using UnityEngine;
 RangedFloat property which has minValue & maxValue */
 
 
-namespace AudioScriptableObject.Editor
+namespace CustomEditorExtentions.Editor
 {
 	[CustomPropertyDrawer(typeof(RangedFloat), true)]
 	public class RangedFloatDrawer : PropertyDrawer {

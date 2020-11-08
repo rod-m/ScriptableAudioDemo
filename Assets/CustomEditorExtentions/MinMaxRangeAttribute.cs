@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AudioScriptableObject
+namespace CustomEditorExtentions
 {
     public class MinMaxRangeAttribute : Attribute
     {

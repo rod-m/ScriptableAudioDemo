@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AudioScriptableObject
+namespace CustomEditorExtentions
 {
     [Serializable]
     public struct RangedFloat
