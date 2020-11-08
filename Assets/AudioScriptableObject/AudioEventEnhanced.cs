@@ -3,19 +3,14 @@
 //To add multiple Simple Audio Event assets use Assets/Audio/Simple
 namespace AudioScriptableObject
 {
-    [CreateAssetMenu(menuName="Audio Events/Simple")]
-    public class EnhancedAudioEvent : AudioEvent
+    [CreateAssetMenu(fileName = "AudioEventEnhanced", menuName = "Audio Events/Enhanced", order = 1)]
+    public class AudioEventEnhanced : AudioEventBase
     {
-        public AudioClip[] clips;
+        
+        [MinMaxRange(0, 2)] public RangedFloat volume;
+        [MinMaxRange(0, 2)] public RangedFloat pitch;
 
-        public RangedFloat volume;
-
-        [MinMaxRange(0, 2)]
-        public RangedFloat pitch;
-
-        [MinMaxRange(0.2f, 5)]
-        public RangedFloat dopler;
-    
+        [MinMaxRange(0.2f, 5)] public RangedFloat dopler;
         public override void Play(AudioSource _source)
         {
             if (clips.Length == 0) return;
@@ -37,5 +32,7 @@ namespace AudioScriptableObject
             Debug.Log($"Input velocity {_velocity} Volume {_source.volume} Pitch {_source.pitch}");
             _source.Play();
         }
+
+       
     }
 }

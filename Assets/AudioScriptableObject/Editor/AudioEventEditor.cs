@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace AudioScriptableObject.Editor
 {
-	[CustomEditor(typeof(AudioEvent), true)]
+	[CustomEditor(typeof(AudioEventBase), true)]
 	public class AudioEventEditor : UnityEditor.Editor
 	{
 /* an audio source to preview on the fly */
@@ -26,7 +26,7 @@ namespace AudioScriptableObject.Editor
 			EditorGUI.BeginDisabledGroup(serializedObject.isEditingMultipleObjects);
 			if (GUILayout.Button("Preview"))
 			{
-				((AudioEvent) target).Play(_previewer);
+				((AudioEventBase) target).Play(_previewer);
 			}
 			EditorGUI.EndDisabledGroup();
 		}
