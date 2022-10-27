@@ -43,12 +43,12 @@
   <ItemGroup>
      <Compile Include="Assets/CustomEditorExtensions/RangedFloat.cs" />
      <Compile Include="Assets/Scripts/CrashingBox.cs" />
-     <Compile Include="Assets/AudioScriptableObject/AudioEventBase.cs" />
+     <Compile Include="Assets/ScriptableObjects/AudioScriptableObject/AudioEventBase.cs" />
      <Compile Include="Assets/Scripts/PlayerProps.cs" />
      <Compile Include="Assets/CustomEditorExtensions/MinMaxRangeAttribute.cs" />
      <Compile Include="Assets/Scripts/NPCController.cs" />
-     <Compile Include="Assets/AudioScriptableObject/AudioEventEnhanced.cs" />
-     <Compile Include="Assets/AudioScriptableObject/AudioEventSimple.cs" />
+     <Compile Include="Assets/ScriptableObjects/AudioScriptableObject/AudioEventEnhanced.cs" />
+     <Compile Include="Assets/ScriptableObjects/AudioScriptableObject/AudioEventSimple.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

@@ -41,7 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/AudioScriptableObject/Editor/AudioEventEditor.cs" />
+     <Compile Include="Assets/ScriptableObjects/AudioScriptableObject/Editor/AudioEventEditor.cs" />
      <Compile Include="Assets/CustomEditorExtensions/Editor/RangedFloatDrawer.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
