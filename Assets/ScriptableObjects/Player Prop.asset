@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54a8ac5c6baf4a909a365e80a8870036, type: 3}
   m_Name: Player Prop
   m_EditorClassIdentifier: 
+  maxSpeed: 5
+  jumpHeight: 10
+  gravityValue: -9.81
+  maxHealth: 0
